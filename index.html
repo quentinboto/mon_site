@@ -1,0 +1,265 @@
+<!doctype html>
+<head>
+
+	<!-- Meta tags & title /-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="all,index,follow" />
+
+<!-- 	<title>Scroll To Top Then Fixed Navigation Effect With JQuery and CSS</title> -->
+<!-- 	<meta name="description" content="Create a sticky navigation bar that remains fixed to the top after scroll" /> -->
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Main stylesheet /-->
+	<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="http://fonts.googleapis.com/css?family=Fjalla+One|Cantarell:400,400italic,700italic,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+	<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+<!-- 	ANIMATE CSS -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<title>QUENTIN BEAUTHAUVILLE</title>
+</head>
+
+<body>
+		<header>
+			<div id="Accueil" class="title">
+				<div>
+					<a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+				</div>
+				<h2>QUENTIN BEAUTHAUVILLE</h2>
+				<h1 class="wow slideInRight">WebDeveloper</h1>
+				
+			</div>
+		</header>
+
+<!-- Navigation Section -->
+<nav>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon icon-bar color-black top-bar"></span>
+        <span class="icon icon-bar color-black middle-bar"></span>
+        <span class="icon icon-bar color-black bottom-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+			<li><a class="js-scrollTo" href="#Accueil">Accueil</a></li>
+			<li><a class="js-scrollTo" href="#A_propos">A propos</a></li>
+			<li><a class="js-scrollTo" href="#Compétences">Compétences</a></li>
+			<li><a class="js-scrollTo" href="#Réalisations">Réalisations</a></li>
+			<li><a class="js-scrollTo" href="#Contact">Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+		
+		<div id="A_propos" class="margin-auto container-fluid">
+			<p class="part_subtitle">QUI SUIS-JE</p><p class="wow slideInDown markpoint" data-wow-duration="0.6s" data-wow-delay="0.4s" data-wow-offset="200" style="margin-left: -10px">?</p>
+			<div>
+				<span class="glyphicon glyphicon-user"></span>
+			</div>
+			<div class="col-md-6 col-lg-6 col-xs-12 col-centered">
+			<p class="descriptif">Mon parcours professionnel m’a permis jusqu'ici d’exercer essentiellement dans le conseil client & la décoration, sur la base d’une formation qualifiante de décorateur. En tant que responsable de magasin, j'ai pû également mettre à profit mes qualités en termes d'autonomie, de travail en équipe et d'organisation.
+			Passionné par les nouvelles technologies, le design et le graphisme, je prends aujourd'hui une nouvelle direction pour devenir développeur web.</p>
+			</div >
+			<div>
+				<img src="images/animation_plan/plan_global.png" class="image_descriptif img-responsive">
+				<div>
+					<img src="images/animation_plan/canape.png" class= "animation_plan img-responsive wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="1.5s" data-wow-offset="250">
+					<img src="images/animation_plan/lampe.png" class= "animation_plan img-responsive wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="2s" data-wow-offset="200">
+					<img src="images/animation_plan/etageres.png" class= "animation_plan img-responsive wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="2.5s" data-wow-offset="200">	
+					<img src="images/animation_plan/tables_tapis.png" class= "animation_plan img-responsive wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="3s" data-wow-offset="200">
+					<img src="images/animation_plan/tazia.png" class= "animation_plan img-responsive wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="3.5s" data-wow-offset="200">
+					<img src="images/animation_plan/plans.png" class= "animation_plan img-responsive wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="4s" data-wow-offset="200">
+				</div>
+			</div>
+		</div>
+		<div class="fixed-bg container-fluid" id="Compétences">
+			<div>
+				<p class="part_subtitle_2">MES COMPETENCES</p>
+			</div>
+			<span class="glyphicon glyphicon-briefcase"></span>
+			<div class="col-md-6 col-lg-6 col-xs-12 col-centered">
+				<p class="descriptif" style="color: white">Mon expérience m'a permis d'acquérir des compétences utiles pour cette nouvelle activité de développeur :</p>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-xs-12 wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.7s">
+					<div class="my_blocks">
+						<h4>DéVELOPPEMENT</h4>
+						<ul class="descriptif_blocks">
+							<li class="li_blocks">Bases HTML5 & CSS3 <img src="images/logos/html.png" alt=""> <img src="images/logos/css.png" alt=""></li>
+							<li class="li_blocks">Notions Javascript <img src="images/logos/java.png" alt=""></li>
+							<li class="li_blocks">Bases Bootstrap <img src="images/logos/bootstrap.png" alt=""></li>
+						</ul>
+					</div>	
+				</div>
+				<div class="col-md-4 col-lg-4 col-xs-12 wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.9s">
+					<div class="my_blocks">
+						<h4>GESTION DE PROJET</h4>
+						<ul class="descriptif_blocks">
+							<li class="li_blocks">Définition d'un cahier des charges</li>
+							<li class="li_blocks">Conseil client & accompagnement</li>
+							<li class="li_blocks">Négociation commerciale</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+					<div class="my_blocks">
+						<h4>GRAPHISME & 3D</h4>
+						<ul class="descriptif_blocks">
+							<li class="li_blocks">Bon niveau Photoshop <img src="images/logos/photoshop.png" alt=""></li>
+							<li class="li_blocks">Maitrise SketchUp <img src="images/logos/sketchup.png" alt=""></li>
+							<li class="li_blocks">Maitrise pConPlanner <img src="images/logos/pcon.png" alt=""></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center" id="Réalisations">
+			<div>
+				<p class="part_subtitle_3">MES REALISATIONS</p>
+			</div>
+			<span class="glyphicon glyphicon-check"></span>
+			<div class="col-md-6 col-lg-6 col-xs-12 col-centered">
+				<p class="descriptif">Voici un aperçu de mes réalisations 3D effectuées ces dernières années dans le cadre de mon travail précédent :</p>
+			</div>
+		</div>
+	<!-- CAROUSEL -->
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-10 col-centered">
+					<div id="carousel-custom" class="carousel slide" data-ride="carousel">
+				  	<!-- Wrapper for slides -->
+				  		<div class="carousel-inner" role="listbox">
+				    		<div class="item active">
+				     			<img src="images/image1.jpg" alt="..." class="img-responsive">
+				    		</div>
+				    		<div class="item">
+				    			<img src="images/image2.jpg" alt="..." class="img-responsive">
+				    		</div>
+				    		<div class="item">
+				    			<img src="images/image3.jpg" alt="..." class="img-responsive">
+				    		</div>
+				       		<div class="item">
+				    			<img src="images/image4.jpg" alt="..." class="img-responsive">
+				    		</div>
+				       		<div class="item">
+				    			<img src="images/image7.jpg" alt="..." class="img-responsive">
+				    		</div>
+				       		<div class="item">
+			    				<img src="images/image6.jpg" alt="..." class="img-responsive">
+				    		</div>
+						</div>
+
+					  <!-- Controls -->
+						<a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
+							<img src="images/Arrow-Left-icon.png">
+							<!-- <i class="fa fa-angle-left fa-lg"></i>
+							<span class="sr-only">Previous</span> -->
+						</a>
+						<a class="right carousel-control" href="#carousel-custom" role="button" data-slide="next">
+							<!-- <i class="fa fa-angle-right fa-lg"></i>
+							<span class="sr-only">Next</span> -->
+							<img src="images/Arrow-Right-icon.png">
+						</a>
+					  
+					  <!-- Indicators -->
+				  		<ol class="carousel-indicators visible-sm-block hidden-xs-block visible-md-block visible-lg-block">
+			            	<li data-target="#carousel-custom" data-slide-to="0" class="active">
+			              		<img src="images/image1_thumb.jpg" alt="..." class="img-responsive">
+			            	</li>
+			            	<li data-target="#carousel-custom" data-slide-to="1">
+			              		<img src="images/image2_thumb.jpg" alt="..." class="img-responsive">
+			            	</li>
+			            	<li data-target="#carousel-custom" data-slide-to="1">
+			              		<img src="images/image3_thumb.jpg" alt="..." class="img-responsive">
+		            		</li>
+			            	<li data-target="#carousel-custom" data-slide-to="1">
+			            		<img src="images/image4_thumb.jpg" alt="..." class="img-responsive">
+			            	</li>
+			            	<li data-target="#carousel-custom" data-slide-to="1">
+			            		<img src="images/image7_thumb.jpg" alt="..." class="img-responsive">
+			            	</li>
+		            		<li data-target="#carousel-custom" data-slide-to="1">
+		            		<img src="images/image6_thumb.jpg" alt="..." class="img-responsive">
+			            	</li>
+			         	</ol> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  CAROUSEL END -->
+		<footer>
+			<div class="container" id="Contact">
+				<div class="col-md-4">
+					<div class="contacts">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						<p>229 Rue Sully Prudhomme<br>
+						34400 Lunel</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="contacts">
+						<span class="glyphicon glyphicon-envelope"></span>
+						<p>qboto@hotmail.fr<br></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="contacts">
+						<span class="glyphicon glyphicon-phone"></span>
+						<p>06 33 12 24 86</p>
+					</div>
+				</div>
+			</div>
+	<!-- CONTACT FORM -->
+	    <section class="form-body">
+	    
+		    <form action="form.php" method="post" enctype="multipart/form-data">
+		        	<div class="col-lg-6 col-md-6 col-xs-12 col-centered">
+			        	<div class="contact-form">
+				        	<h3 class="title">Contact</h3>
+				    		<label></label>
+				    		<input Nom="Nom" required="required" placeholder="Nom">
+				    	</div>
+					    <div class="contact-form">        
+					    	<label></label>
+					    	<input Nom="email" type="email" required="required" placeholder="Email">
+					    </div>        
+					    <div class="contact-form">
+						    <label></label>
+						    <textarea Nom="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+					    </div>
+					    <div class="contact-form">		    
+						    <input id="Annuler" Nom="Annuler" value="Annuler">   
+						    <input id="Envoyer" Nom="Envoyer" type="Envoyer" value="Envoyer">
+			        	</div>
+		        	</div>
+		    </form>
+			<p id="last-footer">© Copyright 2016. Design and Developed by Quentin BEAUTHAUVILLE</p>
+	    </section>		
+				<!-- CONTACT FORM END-->
+		</footer>
+		
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- carousel script -->
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script> <!-- carousel script -->
+	<!-- WOW SCRIPT -->
+	<script src="js/wow.js"></script>
+	<script>
+      $(document).ready(function(){
+        new WOW().init();
+      });
+    </script>
+	<!-- WOW SCRIPT END-->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

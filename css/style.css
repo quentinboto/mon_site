@@ -1,0 +1,614 @@
+
+* {margin: 0; padding: 0;}
+body, html{
+min-height:100%; 
+}
+a {text-decoration: none;}
+ul {list-style-type: none;}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed; 
+	top: 0;  
+	z-index: 100;
+}
+
+body {
+	color: #fff;
+	font-family: 'open-sans-bold'; 
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Font Face Settings */
+@font-face {
+    font-family: 'open-sans-bold';
+	src: url('../fonts/open-sans/OpenSans-Bold.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/open-sans/OpenSans-Bold.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gooddogregular';
+    src: url('../fonts/gooddog/GoodDog-webfont.eot');
+    src: url('../fonts/gooddog/GoodDog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gooddog/GoodDog-webfont.woff') format('woff'),
+         url('../fonts/gooddog/GoodDog-webfont.ttf') format('truetype'),
+         url('../fonts/gooddog/GoodDog-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'luna';
+    src: url('../fonts/luna/luna.woff2') format('woff2'),
+         url('../fonts/luna/luna.woff') format('woff'),
+         url('../fonts/luna/luna.ttf') format('truetype'),
+         url('../fonts/luna/luna.svg#lunaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+
+/* Navigation Settings */
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: inline-block;
+        float: none !important;
+        vertical-align: top;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        background: transparent !important;
+    	height: 50px !important;
+    	border-top: 0px !important;
+    }
+    nav li a{
+	display: inline-block;
+	color: #757575;
+	text-transform: uppercase;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	padding-top: 7px !important;
+	text-align: right;
+	}
+}
+@media (max-width: 767px){
+	.navbar-collapse {
+		background-color: #eee !important;
+/*		width: 110%;
+		float: right;*/
+		height: 230px;
+		border-top: 0px !important;
+	    padding-left: 27px !important;
+		}
+	.nav {
+		padding-top: 0 !important;
+	}
+	.navbar-nav {
+    	margin: 0px -15px !important;
+	}
+	nav li a {
+		border-bottom: 1px solid #bbbbbb;
+		display: inline-block;
+		color: #757575;
+		text-transform: uppercase;
+		text-align: right;
+		margin-right: 19px;
+		margin-left: 15px;
+		padding-right: 0px !important;
+		/*padding-top: 10px !important;*/
+	}
+}
+nav {
+	width: 100%;
+	height: 50px;
+	background: #eee;
+	opacity: 0.9;
+	padding-top: 0px;
+	position: absolute;
+	z-index: 100;
+}
+.color-black {
+	background-color: black; 
+}
+
+/*Navbar hamburger animation*/
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+ top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+ position: relative;
+ transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+ top: 6px;
+ transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+ background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+ top: -6px;
+ transform: rotate(-45deg);
+}
+/*.navbar-toggle.active .color-black {
+	background-color: blue;
+}*/
+
+.logo {
+	padding-top: 20px;
+	width: 50px;
+	height: 100%;
+	margin-bottom: 90px;
+}
+
+ul li img {
+	width: 20px;
+/*	height: 30px;*/
+}
+
+header {	
+	background: url("images/BACKGROUND.jpg");
+	width: 100%;
+	min-height: 675px;
+	background-repeat: no-repeat;
+	background-position: 10% 90%;
+    background-size: cover;
+	color: white;
+	padding: 15px 0;
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-family: 'luna' !important;
+	font-weight: normal !important;
+/*	text-transform: uppercase;*/
+	line-height: 46px !important;
+	font-size: 4em !important;
+	letter-spacing: 2px;
+	margin: 0 0 23px 0;
+	margin: auto !important; 
+/*	margin-right: 20px !important;
+	margin-left: 20px !important;*/
+    padding-top: 20px !important;
+    text-align: center !important;
+}
+@media screen and (max-width: 767px)
+{
+	h1 {
+		font-size: 2.5em !important;
+	}
+}
+
+h2 {
+    font-family: 'Cantarell', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+/*  margin-top: 0 !important;*/
+/*	border-bottom: 2px solid white;*/
+}
+
+h4 {
+    font-family: 'Fjalla One', sans-serif !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    line-height: 46px !important;
+    font-size: 2em !important;
+    color: white !important;
+}	
+
+p {
+    font-family: 'Cantarell', sans-serif !important;
+    font-size: 17px !important;
+    line-height: 23px !important;
+}
+
+.nav {
+	text-align: center !important;
+	font-family: "Fjalla One";
+	font-size: 20px;
+	padding: 10px;
+}
+
+.nav a {
+    color: #777;
+}
+
+
+a:hover {
+	text-decoration: none !important;
+	color : #444 !important;
+	background-color: transparent !important;
+}
+
+a:focus {
+	color: #777 !important;
+}
+
+.descriptif {
+	font-family: "Fjalla One";
+	font-size: 14px;
+/*	display: inline-block;*/
+	padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+/*	margin-left: 40px;
+	margin-right: 40px;*/
+	padding-bottom: 0px;
+	text-align: justify;
+}
+
+.image_descriptif {
+	width: 700px;
+	padding-top: 0px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: auto;
+}
+.animation_plan {
+	width: 700px;
+	height: auto;
+	padding-top: 0px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    left: 0;
+}
+
+#A_propos {
+padding-top: 120px;
+height: 800px;
+}
+
+.fixed-bg {
+    /* The background image */
+    background-image: url("images/skills.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 700px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+	width: 100% !important;
+/*    padding-left: 40px !important;
+    padding-right: 40px !important;*/
+}
+.descriptif_2 {
+	font-family: "Fjalla One";
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+/*	margin-left: 40px;
+	margin-right: 40px;*/
+	color: white;
+	padding-bottom: 0px;
+	text-align: justify;
+}
+.part_subtitle {
+	text-align: center;
+	font-family: "Fjalla One" !important;
+	font-size: 25px !important;
+	display: inline-block;
+/*	padding-top: 90px;*/
+	border-bottom: 2px solid #333;
+	padding-bottom: 49px;
+	margin-bottom: -48px;
+	padding-right: 15px;
+}
+.markpoint {
+	text-align: center;
+	font-family: "Fjalla One" !important;
+	font-size: 25px !important;
+	display: inline-block;
+/*	padding-top: 90px;*/
+	padding-bottom: 49px;
+	margin-bottom: -48px;
+	
+}
+.part_subtitle_2 {
+	text-align: center;
+	font-family: "Fjalla One" !important;
+	font-size: 25px !important;
+	display: inline-block;
+	padding-top: 90px;
+	padding-bottom: 49px;
+	border-bottom: 2px solid white;
+	color: white;
+	margin-bottom: -27px;
+}
+.part_subtitle_3 {
+	text-align: center;
+	font-family: "Fjalla One" !important;
+	font-size: 25px !important;
+	display: inline-block;
+/*	padding-top: 90px;*/
+	border-bottom: 2px solid #333;
+	padding-bottom: 49px;
+	margin-bottom: -48px;
+}
+
+.my_blocks {
+	padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid white;
+    margin-bottom: 90px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+/*    height: 379px;*/
+}
+
+.descriptif_blocks {
+	font-family: "Cantarell";
+	font-size: 17px;
+	padding-top: 20px;
+	border-top: 1px solid white;
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.li_blocks {
+	padding-top: 30px;
+}
+#Réalisations {
+	padding-top: 90px;
+}
+.glyphicon {
+	font-size: 200%;
+}
+
+.glyphicon-briefcase {
+	color: white;
+}
+
+.glyphicon-user {
+	color: #333;
+	padding-top: 20px;
+}
+
+.glyphicon-check {
+	color: #333;
+	padding-top: 20px;
+}
+
+footer {
+	background-color: #333;
+	background-size: cover;
+	color: white;
+	bottom: 0;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+footer div p {
+	border-top: 1px solid #777;
+	padding-top: 20px;
+	margin-top: -4px;
+/*	margin-bottom: 0px;	*/
+}
+
+#last-footer {
+    margin-top: 120px;
+/*    margin-bottom: 30px;*/
+    font: 300 12px 'Roboto',arial, sans-serif !important;
+}
+
+.contacts {
+	margin-top: 90px;
+	display: inline-block;
+/*	border: 1px solid white;*/
+	width: 250px;
+	text-align: center;
+}
+
+
+/*FORM CONTACT*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
+
+.contact-form {
+	float: none;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 30px !important;
+	text-transform: uppercase !important;
+	color: #777 !important;
+	padding-top: 60px !important;
+}
+
+
+/* Centres the page (this could be container)*/
+.form-body {
+    display:block !important;
+    margin:0 auto !important;
+/*    width:576px !important;*/
+    font-family: 'Muli', sans-serif !important;
+    font-size: 16px !important;
+    color: #999 !important;
+    margin-top: 50px !important;
+}
+
+
+/* Labels are titles for the text fields. You can use a placeholder instead if you like*/
+label {
+    display:block !important;
+    margin-top:20px !important;
+    letter-spacing:2px !important;
+}
+
+/* Centres the form within the page */
+form {
+    margin:0 auto !important;
+/*    width:600px !important;*/
+    text-align: center;
+}
+
+/* Styles the text boxes */
+input, textarea, file {
+	width:80% !important;
+	background-color:transparent !important;
+	border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	border:1px solid #dedede !important;
+	padding:10px !important;
+	margin-top:3px !important;
+	font-size:0.9em !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+input:focus, textarea:focus {
+	border:1px solid #97d6eb !important;
+}
+
+/* Styles the text area boxes (message field) */	
+textarea {
+/*	height:213px !important;*/
+	background-color: transparent !important;
+}
+
+
+/* Styles the Envoyer button */
+#Envoyer {
+	width:127px !important;
+	height:48px !important;
+	text-align: center !important;/
+	margin-top:20px !important;
+	cursor:pointer !important;
+}
+
+/* Styles the Envoyer hover */	
+#Envoyer:hover {
+	color:#fff !important;
+	background-color: #777 !important;
+	opacity:0.9 !important;
+}
+
+/* Styles the Annuler button*/	
+#Annuler {
+	width:127px !important;
+	height:48px !important;
+	text-align: center !important;
+	margin-top:20px !important;
+	margin-bottom: 20px !important;
+	cursor:pointer !important;
+}
+
+/* Styles the Annuler hover */
+#Annuler:hover {
+	color:#fff !important;
+	background-color: #444 !important;
+	opacity:0.9 !important;
+}
+
+/*CAROUSEL CSS beginning*/
+#carousel-custom {
+    margin-top:  10px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+#carousel-custom .carousel-indicators {
+    margin: 20px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+.carousel-control.left {
+    background-image: none !important;
+    width: 54px;
+    height: 54px;
+    top: 50%;
+    left: 20px;
+    margin-top: -27px;
+    line-height: 54px;
+    border: 1px solid #fff;
+    opacity: 1;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.carousel-control.right {
+    background-image: none !important;
+    width: 54px;
+    height: 54px;
+    top: 50%;
+    right: 20px !important;
+    margin-top: -27px;
+    line-height: 54px;
+    border: 1px solid #fff;
+    opacity: 1;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+/*.fa-chevron-left {
+	font-size: 10px !important;
+}*/
+.col-centered {
+    float: none !important;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+/*CAROUSEL CSS end*/
