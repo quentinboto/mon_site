@@ -152,6 +152,7 @@ nav {
 	width: 50px;
 	height: 100%;
 	margin-bottom: 90px;
+	z-index: 2;
 }
 
 ul li img {
