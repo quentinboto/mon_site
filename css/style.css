@@ -58,6 +58,7 @@ body {
   background-size:cover;
   position:relative;
   margin-bottom: -50px;
+  background-position: 71%;
 }
 /* Navigation Settings */
 
@@ -147,10 +148,10 @@ body {
 		padding-bottom: 40px;
 	}
 	.fixed-bg {
-	    background-image: url("images/skills.jpg");
+	    background-image: url("images/skills2.jpg");
 	    background-attachment: fixed;
-		background-position: 83%;
-	    background-position: center center;
+		background-position: 83% !important;
+/*	    background-position: center center;*/
 	    background-repeat: no-repeat;
 	    background-size: cover;
 		/*width: 100% !important;*/
