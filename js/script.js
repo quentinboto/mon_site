@@ -39,10 +39,21 @@ $(document).ready(function(){
       });
 // WOW SCRIPT END
 
-    // $(function() {
-    //     // Sections height
-    //     $(window).resize(function() {
-    //         var sH = $(window).height();
-    //         $('.accueil').css('height', sH + 'px');
-    //     });        
-    // });
+// Background resize
+jQuery(document).ready(function($){
+ // Defining a function to set size for #hero 
+	function fullscreen(){
+		jQuery('#resize').css({
+            width: jQuery(window).width(),
+            height: jQuery(window).height()
+        });
+	}
+  
+	fullscreen();
+
+  // Run the function in case of window resize
+  jQuery(window).resize(function() {
+       fullscreen();         
+    });
+
+});
