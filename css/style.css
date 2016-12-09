@@ -149,11 +149,11 @@ body {
 	.fixed-bg {
 	    background-image: url("images/skills.jpg");
 	    background-attachment: fixed;
-	    background-position: center center;
+		background-position: 83%;
+/*	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-		background-position: 83%;
-		width: 100% !important;
+		width: 100% !important;*/
 		height: 50%;
 	}
 }
