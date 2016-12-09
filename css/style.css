@@ -143,15 +143,18 @@ body {
 		padding-right: 0px !important;
 		/*padding-top: 10px !important;*/
 	}
+	#Compétences{
+		padding-bottom: 40px;
+	}
 	.fixed-bg {
 	    background-image: url("images/skills.jpg");
-	    min-height: 500px;
 	    background-attachment: fixed;
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-		background-position: 83% 90%;
+		background-position: 83%;
 		width: 100% !important;
+		height: 50%;
 	}
 }
 
@@ -227,8 +230,7 @@ h1 {
     padding-top: 20px !important;
     text-align: center !important;
 }
-@media screen and (max-width: 767px)
-{
+@media screen and (max-width: 767px){
 	h1 {
 		font-size: 2.5em !important;
 	}
@@ -407,6 +409,11 @@ height: 860px;
     margin-right: 10px;
     margin-top: 20px;
 /*    height: 379px;*/
+}
+@media screen and (max-width: 767px){
+ 	.my_blocks {
+	margin-bottom: 40px;
+	}
 }
 
 .descriptif_blocks {
