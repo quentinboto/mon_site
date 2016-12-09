@@ -98,7 +98,7 @@ body {
 	    background-size: cover;
 		width: 100% !important;
 	}
-	
+
 @media screen and (max-width: 767px){
 	
 	header {	
@@ -138,16 +138,16 @@ body {
 	#Compétences{
 		padding-bottom: 40px;
 	}
-/*	.fixed-bg {
-	    background-image: url("images/skills.jpg");
+	.fixed-bg {
+	    background-image: url("images/skills2.jpg");
 	    background-attachment: fixed;
 		background-position: 83% !important;
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-		/*width: 100% !important;
-		height: 100%;
-	}*/
+/*		width: 100% !important;
+		height: 100%;*/
+	}
 }
 
 nav {
@@ -163,7 +163,7 @@ nav {
 	background-color: black; 
 }
 
-/*Navbar hamburger animation*/
+/*Navbar hamburger animation
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
  top: 1px;
