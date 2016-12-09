@@ -33,6 +33,11 @@ $('.nav a').on('click', function(){
 			return false;
 		});
 	});
+// Wow script
+$(document).ready(function(){
+        new WOW().init();
+      });
+// WOW SCRIPT END
 
     // $(function() {
     //     // Sections height
