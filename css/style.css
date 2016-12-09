@@ -373,6 +373,20 @@ height: 860px;
 	padding-bottom: 49px;
 	margin-bottom: -48px;
 }
+.part_subtitle_4 {
+	text-align: center;
+	font-family: "Fjalla One" !important;
+	font-size: 25px !important;
+	display: inline-block;
+	padding-top: 90px;
+	padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+	border-bottom: 2px solid white;
+	color: white;
+	margin-bottom: 20px;
+	border-top: none !important;
+}
 
 .my_blocks {
 	padding-top: 40px;
@@ -428,6 +442,7 @@ footer {
 	bottom: 0;
     height: 100%;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 footer div p {
@@ -454,50 +469,48 @@ footer div p {
 
 /*FORM CONTACT*/
 
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+/*@import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Muli:300);
 
 .contact-form {
 	float: none;
 }
-
-h3 {
+*/
+/*h3 {
 	font-family: 'Oswald', sans-serif !important;
 	font-size: 30px !important;
 	text-transform: uppercase !important;
 	color: #777 !important;
 	padding-top: 60px !important;
-}
+}*/
 
 
 /* Centres the page (this could be container)*/
-.form-body {
+/*.form-body {
     display:block !important;
     margin:0 auto !important;
-/*    width:576px !important;*/
     font-family: 'Muli', sans-serif !important;
     font-size: 16px !important;
     color: #999 !important;
     margin-top: 50px !important;
 }
-
+*/
 
 /* Labels are titles for the text fields. You can use a placeholder instead if you like*/
-label {
+l/*abel {
     display:block !important;
     margin-top:20px !important;
     letter-spacing:2px !important;
-}
+}*/
 
 /* Centres the form within the page */
-form {
+/*form {
     margin:0 auto !important;
-/*    width:600px !important;*/
     text-align: center;
-}
+}*/
 
 /* Styles the text boxes */
-input, textarea, file {
+/*input, textarea, file {
 	width:80% !important;
 	background-color:transparent !important;
 	border-radius:0px !important;
@@ -509,51 +522,50 @@ input, textarea, file {
 	font-size:0.9em !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
-}
+}*/
 
-input:focus, textarea:focus {
+/*input:focus, textarea:focus {
 	border:1px solid #97d6eb !important;
-}
+}*/
 
 /* Styles the text area boxes (message field) */	
-textarea {
-/*	height:213px !important;*/
+/*textarea {
 	background-color: transparent !important;
-}
+}*/
 
 
 /* Styles the Envoyer button */
-#Envoyer {
+/*#Envoyer {
 	width:127px !important;
 	height:48px !important;
 	text-align: center !important;/
 	margin-top:20px !important;
 	cursor:pointer !important;
-}
+}*/
 
 /* Styles the Envoyer hover */	
-#Envoyer:hover {
+/*#Envoyer:hover {
 	color:#fff !important;
 	background-color: #777 !important;
 	opacity:0.9 !important;
-}
+}*/
 
 /* Styles the Annuler button*/	
-#Annuler {
+/*#Annuler {
 	width:127px !important;
 	height:48px !important;
 	text-align: center !important;
 	margin-top:20px !important;
 	margin-bottom: 20px !important;
 	cursor:pointer !important;
-}
+}*/
 
 /* Styles the Annuler hover */
-#Annuler:hover {
+/*#Annuler:hover {
 	color:#fff !important;
 	background-color: #444 !important;
 	opacity:0.9 !important;
-}
+}*/
 
 /*CAROUSEL CSS beginning*/
 #carousel-custom {
