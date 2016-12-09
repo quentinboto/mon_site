@@ -150,9 +150,9 @@ body {
 	    background-image: url("images/skills.jpg");
 	    background-attachment: fixed;
 		background-position: 83%;
-/*	    background-position: center center;
+	    background-position: center center;
 	    background-repeat: no-repeat;
-	    background-size: cover;
+	    /*background-size: cover;
 		width: 100% !important;*/
 		height: 50%;
 	}
