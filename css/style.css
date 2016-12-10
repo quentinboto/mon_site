@@ -211,10 +211,10 @@ ul li img {
 h1 {
 	font-family: 'luna' !important;
 	font-weight: normal !important;
-	line-height: 46px !important;
+/*	line-height: 46px !important;*/
 	font-size: 4em !important;
 	letter-spacing: 2px;
-	margin: 0 0 23px 0;
+/*	margin: 0 0 23px 0;*/
 	margin: auto !important; 
 	margin-right: 20px !important;
 	margin-left: 20px !important;
