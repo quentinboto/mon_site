@@ -143,11 +143,6 @@ body {
 		height: 100%;*/
 	}
 }
-@media (max-width:640px) {
-  section {
-    background-attachment:initial;
-  }
-}
 
 nav {
 	width: 100%;
