@@ -163,7 +163,7 @@ nav {
 	background-color: black; 
 }
 
-/*Navbar hamburger animation
+Navbar hamburger animation
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
  top: 1px;
@@ -211,13 +211,13 @@ ul li img {
 h1 {
 	font-family: 'luna' !important;
 	font-weight: normal !important;
-/*	text-transform: uppercase;*/
+/*	text-transform: uppercase;
 	line-height: 46px !important;
 	font-size: 4em !important;
 	letter-spacing: 2px;
 	margin: 0 0 23px 0;
 	margin: auto !important; 
-/*	margin-right: 20px !important;
+	margin-right: 20px !important;
 	margin-left: 20px !important;*/
     padding-top: 20px !important;
     text-align: center !important;
@@ -475,107 +475,6 @@ footer div p {
 	width: 250px;
 	text-align: center;
 }
-
-
-/*FORM CONTACT*/
-
-/*@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Muli:300);
-
-.contact-form {
-	float: none;
-}
-*/
-/*h3 {
-	font-family: 'Oswald', sans-serif !important;
-	font-size: 30px !important;
-	text-transform: uppercase !important;
-	color: #777 !important;
-	padding-top: 60px !important;
-}*/
-
-
-/* Centres the page (this could be container)*/
-/*.form-body {
-    display:block !important;
-    margin:0 auto !important;
-    font-family: 'Muli', sans-serif !important;
-    font-size: 16px !important;
-    color: #999 !important;
-    margin-top: 50px !important;
-}
-*/
-
-/* Labels are titles for the text fields. You can use a placeholder instead if you like*/
-l/*abel {
-    display:block !important;
-    margin-top:20px !important;
-    letter-spacing:2px !important;
-}*/
-
-/* Centres the form within the page */
-/*form {
-    margin:0 auto !important;
-    text-align: center;
-}*/
-
-/* Styles the text boxes */
-/*input, textarea, file {
-	width:80% !important;
-	background-color:transparent !important;
-	border-radius:0px !important;
-	-moz-border-radius:0px !important;
-	-webkit-border-radius:0px !important;
-	border:1px solid #dedede !important;
-	padding:10px !important;
-	margin-top:3px !important;
-	font-size:0.9em !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-}*/
-
-/*input:focus, textarea:focus {
-	border:1px solid #97d6eb !important;
-}*/
-
-/* Styles the text area boxes (message field) */	
-/*textarea {
-	background-color: transparent !important;
-}*/
-
-
-/* Styles the Envoyer button */
-/*#Envoyer {
-	width:127px !important;
-	height:48px !important;
-	text-align: center !important;/
-	margin-top:20px !important;
-	cursor:pointer !important;
-}*/
-
-/* Styles the Envoyer hover */	
-/*#Envoyer:hover {
-	color:#fff !important;
-	background-color: #777 !important;
-	opacity:0.9 !important;
-}*/
-
-/* Styles the Annuler button*/	
-/*#Annuler {
-	width:127px !important;
-	height:48px !important;
-	text-align: center !important;
-	margin-top:20px !important;
-	margin-bottom: 20px !important;
-	cursor:pointer !important;
-}*/
-
-/* Styles the Annuler hover */
-/*#Annuler:hover {
-	color:#fff !important;
-	background-color: #444 !important;
-	opacity:0.9 !important;
-}*/
 
 /*CAROUSEL CSS beginning*/
 #carousel-custom {
