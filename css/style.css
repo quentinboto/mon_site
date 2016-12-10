@@ -225,6 +225,16 @@ h1 {
 		font-size: 2.5em !important;
 	}
 }
+
+@media (max-width:340px) {
+  	#A_propos {
+  	height: 980px;
+  	}
+	h1 {
+	font-size: 1.9em !important;
+	}
+  }
+
 h2 {
     font-family: 'Cantarell', sans-serif !important;
     font-weight: 500 !important;
