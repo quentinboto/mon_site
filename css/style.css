@@ -102,12 +102,6 @@ body {
 @media screen and (max-width: 767px){
 	
 	header {	
-/*		background: url("images/BACKGROUND.jpg");
-		width: 100%;
-		min-height: 600px;
-		background-repeat: no-repeat;
-		background-position: 57% 90%;
-	    background-size: cover;*/
 		color: white;
 		padding: 15px 0;
 		margin-bottom: 0px;
