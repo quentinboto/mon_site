@@ -134,13 +134,15 @@ body {
 	}
 	.fixed-bg {
 	    background-image: url("images/skills2.jpg");
-	    background-attachment: fixed;
+	    /*background-attachment: fixed;*/
 		background-position: 83% !important;
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-/*		width: 100% !important;
-		height: 100%;*/
+		width: 100% !important;
+		height: 100%;
+		position: fixed;
+		z-index:-1;
 	}
 }
 
