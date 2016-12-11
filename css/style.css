@@ -226,9 +226,9 @@ h1 {
 	}
 }
 
-@media (max-width:340px) {
+@media screen and (max-width: 340px) {
   	#A_propos {
-  	height: 980px;
+  	height: 980px !important;
   	}
 	h1 {
 	font-size: 1.9em !important;
